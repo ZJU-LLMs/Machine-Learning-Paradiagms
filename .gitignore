@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100/
+.Trashes/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Build and cache output
+dist/
+build/
+coverage/
+*.log
